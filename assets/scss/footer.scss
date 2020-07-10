@@ -10,28 +10,27 @@
 
   h4 {
     color: white;
-    font-size: 20px;
+    font-size: 21px;
     padding: 10px 0;
   }
 
   .contact {
     width: calc(33.3% - 20px);
-    h4 {
-      font-size: 20px;
-      justify-content: center;
-      align-items: center;
-      color: white;
-      padding-left: 10px;
-    }
     p {
-      padding: 10px;
+      padding: 10px 0;
       color: white;
       text-decoration: none;
-      font-size: 12px;
+      font-size: 14px;
 
       a {
         text-decoration: none;
-        color: black;
+        color: white;
+        border-bottom: 1px dotted white;
+
+        &:hover {
+          background: rgba(white, 0.2);
+          border-bottom-style: solid;
+        }
       }
     }
   }
@@ -40,14 +39,11 @@
   }
   .our_mission {
     width: calc(33.3% - 20px);
-    h4 {
-      color: white;
-      font-size: 20px;
-    }
-
     p {
-      font-size: 12px;
+      font-size: 14px;
       color: white;
+      font-weight: 400;
+      line-height: 1.5;
     }
   }
   .suggestion {
