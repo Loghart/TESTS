@@ -1,0 +1,49 @@
+.service_content {
+  width: 100%;
+  padding: 30px 0;
+}
+
+.finance_text {
+  p {
+    color: $primary;
+    font-size: 7em;
+    font-weight: bold;
+    margin-top: 70px;
+  }
+}
+.offers {
+  display: flex;
+  justify-content: space-between;
+
+  .offer {
+    h2 {
+      padding: 100px 0px 30px 0px;
+      font-size: 24px;
+      color: $primary;
+      font-weight: bold;
+    }
+
+    h3 {
+      padding: 30px 0px 30px 0px;
+      font-size: 24px;
+      color: $primary;
+      font-weight: bold;
+    }
+    .offer_text {
+      width: 100%;
+
+      p {
+        font-size: 18px;
+        color: grey;
+        margin-bottom: 20px;
+        font-weight: bold;
+      }
+      li {
+        font-size: 18px;
+        color: grey;
+        margin-bottom: 10px;
+        font-weight: bold;
+      }
+    }
+  }
+}
