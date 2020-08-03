@@ -46,4 +46,24 @@
       }
     }
   }
+  .credit_form {
+    margin-bottom: 30px;
+    .offer_box {
+      display: inline-flex;
+      margin-right: 20px;
+
+      p {
+        margin-top: 10px;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      img {
+        width: 40px;
+        margin-right: 10px;
+      }
+    }
+  }
 }
