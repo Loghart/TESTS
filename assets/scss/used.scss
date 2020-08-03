@@ -1,0 +1,23 @@
+.used_content {
+  width: 100%;
+  .used_car {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: solid black 1px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+    .car_photo {
+      width: calc(30% - 10px);
+      img {
+        display: block;
+        width: 100%;
+      }
+    }
+    .car_content {
+      width: calc(70% - 10px);
+    }
+  }
+}
