@@ -14,3 +14,20 @@ hamburger.addEventListener("click", function (e) {
     hamburgerMenu.classList.add("active");
   }
 });
+
+var myImage = document.querySelector("img");
+
+myImage.onclick = function () {
+  var mySrc = myImage.getAttribute("src");
+  if (mySrc === "images/audi1.jpg") {
+    myImage.setAttribute("src", "images/audi2.jpg");
+    return;
+  }
+
+  if (mySrc === "images/audi2.jpg") {
+    myImage.setAttribute("src", "images/audi3.jpg");
+    return;
+  }
+
+  myImage.setAttribute("src", "images/audi1.jpg");
+};
